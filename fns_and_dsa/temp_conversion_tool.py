@@ -23,9 +23,9 @@ def onvert_to_fahrenheit(celsius):
 
 
 temperature = int(input("Enter the temperature to convert: "))
-if type(temperature) == int:
+unit = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").upper().strip()
 
-    unit = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").upper().strip()
+if type(temperature) == int:
 
     if unit == "F":
         fahrenheit = temperature
