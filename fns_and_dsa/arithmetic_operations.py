@@ -6,8 +6,8 @@ def perform_operation(num1, num2, operation):
     elif operation == 'multiply':
         return float(num1 * num2)
     else:
-        if num2 != 0:
-            return float(num1 / num2)
-        else:
-            return f"Cannot divide by {float(num2)}."
+        
+        return float(num1 / num2)
+        # else:
+        #     return f"Cannot divide by {float(num2)}."
                       
