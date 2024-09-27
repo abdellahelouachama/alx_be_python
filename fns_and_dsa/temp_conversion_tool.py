@@ -1,17 +1,11 @@
 FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9 
 CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
-temperature = int(input("Enter the temperature to convert: "))
-unit = input("Is this temperature in Celsius or Fahrenheit? (C/F): ")
-
 
 def convert_to_celsius(fahrenheit)
     global unit
     unit = 'C'
     celsius = FAHRENHEIT_TO_CELSIUS_FACTOR * (fahrenheit - 32)
     return celsius
-    
-    
-
 
 
 def onvert_to_fahrenheit(celsius):
@@ -22,9 +16,8 @@ def onvert_to_fahrenheit(celsius):
     
 
 
-
-
-
+temperature = int(input("Enter the temperature to convert: "))
+unit = input("Is this temperature in Celsius or Fahrenheit? (C/F): ")
 if type(temperature) == int:
 
     if unit == "F":
