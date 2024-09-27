@@ -30,7 +30,7 @@ if type(temperature) == int:
     if unit == "F":
         fahrenheit = temperature
         Celsius = convert_to_celsius(fahrenheit)
-        print(f"{float(fahrenheit)}°C is {float(Celsius)}°{unit}")
+        print(f"{float(fahrenheit)}°F is {float(Celsius)}°{unit}")
 
     elif unit == "C":
         Celsius = temperature
