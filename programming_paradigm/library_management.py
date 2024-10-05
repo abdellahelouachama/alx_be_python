@@ -6,7 +6,10 @@ class Book:
 
 class Library:   
     _books = []
-    # _is_checked_out = None
+    def __init__(self):
+        pass
+        
+
 
     def add_book(cls, book):
         cls._books.append(book)
