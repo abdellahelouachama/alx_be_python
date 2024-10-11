@@ -7,14 +7,14 @@ class Rectangle(Shape):
         self.length = length
         self.width = width
     def area(self):
-        area = self.length * self.width
-        return area    
+        return self.length * self.width
+           
 class Circle(Shape):
     def __init__(self, radius):
         self.radius = radius
     def area(self):
-        area = math.pi * self.radius**2
-        return area
+        return  math.pi * self.radius**2
+        
         
 
 
